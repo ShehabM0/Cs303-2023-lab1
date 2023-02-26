@@ -72,8 +72,5 @@ The tests are failing right now because we're not returning the correct string. 
 ### Run command
 `yarn test`
 
-### Notes
-Your grade will be calculated based on more test cases that are not included in the repo.
-
 ### Result
 ![screenshot](Screenshot.png)
