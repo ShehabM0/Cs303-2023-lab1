@@ -1,10 +1,11 @@
 /*
-  just replace the given character of given string
-  by lowerCase, then substract the char by 97
-  A B C D E ... 
+  just convert the given string toLowerCase,
+  then subtract each char by 'a' (97)
+  A B C D E ...
   0 1 2 3 4 ...
   to know the column that the character begin with
-  e.g. number of characters befroe C is 2 ----> 2 * width => 2 * 4 = column 8
+  e.g. number of characters befroe C is 2 ----> 2 * width => 2 * 4 =
+  column 8
 */
 function AsciiArt(width, height, test, alphabet) {
   test = test.toLowerCase();
